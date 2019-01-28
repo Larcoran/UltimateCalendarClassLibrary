@@ -3,7 +3,7 @@ using System;
 
 namespace UltimateCalendarClassLibrary
 {
-    class EventBuilder
+    public class EventBuilder
     {
         public Event BuildEvent(MySqlDataReader reader)
         {

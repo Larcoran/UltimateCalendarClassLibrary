@@ -3,7 +3,7 @@ using System;
 
 namespace UltimateCalendarClassLibrary
 {
-    class GetUserFromDB : DBQuery
+    public class GetUserFromDB : DBQuery
     {
         private User user;
 

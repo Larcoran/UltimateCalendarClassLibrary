@@ -2,7 +2,7 @@
 
 namespace UltimateCalendarClassLibrary
 {
-    abstract class DBQuery
+    public abstract class DBQuery
     {
         protected MySqlConnection connection = null;
         protected MySqlCommand command = null;

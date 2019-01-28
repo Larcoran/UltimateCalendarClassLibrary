@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace UltimateCalendarClassLibrary
 {
-    class GetEventsFromDB : DBQuery
+    public class GetEventsFromDB : DBQuery
     {
         public GetEventsFromDB(string connectionString):base(connectionString)
         {

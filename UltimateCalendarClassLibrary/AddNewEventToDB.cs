@@ -1,6 +1,6 @@
 ﻿namespace UltimateCalendarClassLibrary
 {
-    class AddNewEventToDB : DBQuery
+    public class AddNewEventToDB : DBQuery
     {
 
         public AddNewEventToDB(string connectionString):base(connectionString)
@@ -12,8 +12,8 @@
 
         public void Add(Event @event)
         {
-            this.@event = @event;
-            Execute();
+                this.@event = @event;
+                Execute();
         }
 
         public override void ExecuteCommand()

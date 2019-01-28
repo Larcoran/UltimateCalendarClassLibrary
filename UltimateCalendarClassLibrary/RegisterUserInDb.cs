@@ -4,7 +4,7 @@ using System.Data;
 
 namespace UltimateCalendarClassLibrary
 {
-    class RegisterUserInDb
+    public class RegisterUserInDb
     {
         public string RegisterUserInDB(string name, string surname, DateTime dob, string email, string password, string connectionString)
         {
